@@ -40,11 +40,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+    -Relational databases are databases that store their data in tables that can relate to each other using foreign keys, SQL is a query language
+
 - [ ] Why do tables need a `primary key`?
+
+    - to ensure that each entry has a unique identifier
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+    - a foreign key
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+    - A joiner table
 
 ## Minimum Viable Product
 
@@ -63,7 +71,7 @@ Complete the following tasks:
   - [ ] when adding a `task` the client must provide the `id` of an existing project.
   - [ ] for `projects` and `tasks` if no value is provided for the `completed` property, the API should provide a default value of `false`.
 
-- [ ] Build an API with endpoints for:
+- [X] Build an API with endpoints for:
   - [ ] adding resources.
   - [ ] retrieving a list of resources.
 
